@@ -1,4 +1,4 @@
 package org.example.processinglog.dto;
 
-public record ProcesingLogResponse(String text) {
+public record ProcessingLogResponse(String text) {
 }

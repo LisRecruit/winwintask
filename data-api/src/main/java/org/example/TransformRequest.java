@@ -1,4 +1,4 @@
 package org.example;
 
-public record TransfromRequest(String text) {
+public record TransformRequest(String text) {
 }

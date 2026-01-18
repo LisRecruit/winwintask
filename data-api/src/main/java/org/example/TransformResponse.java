@@ -1,2 +1,4 @@
-package org.example;public record TransformResponse() {
+package org.example;
+
+public record TransformResponse(String text) {
 }

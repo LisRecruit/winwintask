@@ -4,18 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f241ebd-3059-487a-bc1b-6dd771caf5a2" name="Changes" comment="" />
+    <list default="true" id="3f241ebd-3059-487a-bc1b-6dd771caf5a2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/auth/dto/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/auth/dto/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/configurations/JwtRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/configurations/JwtRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/configurations/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/configurations/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/configurations/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/configurations/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/dataapi/DataApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/dataapi/DataApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/ProcessingLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/ProcessingLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/ProcessingLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/ProcessingLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/ProcessingLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/ProcessingLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/ProcessingLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/ProcessingLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/dto/ProcessingLogRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/dto/ProcessingLogRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/dto/ProcessingLogResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/processinglog/dto/ProcessingLogResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/dto/UserCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/dto/UserCreateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/dto/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/dto/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/dto/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/java/org/example/user/dto/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/test/java/org/example/dataapi/DataApiClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/test/java/org/example/dataapi/DataApiClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/test/java/org/example/processinglog/ProcessingLogControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/test/java/org/example/processinglog/ProcessingLogControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/test/java/org/example/processinglog/ProcessingLogServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/test/java/org/example/processinglog/ProcessingLogServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-api/src/test/java/org/example/user/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-api/src/test/java/org/example/user/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-api/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/data-api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-api/src/main/java/org/example/TransformController.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-api/src/main/java/org/example/TransformController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-api/src/main/java/org/example/TransformRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-api/src/main/java/org/example/TransformRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-api/src/main/java/org/example/TransformResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-api/src/main/java/org/example/TransformResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+        <option value="Dockerfile" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="38GJaKLcAqzzHkiVa7hRXlqoMCW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,11 +72,116 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AuthApiApp.executor": "Run",
+    "JUnit.DataApiClientTest.executor": "Run",
+    "JUnit.ProcessingLogControllerTest.executor": "Run",
+    "JUnit.ProcessingLogServiceTest.executor": "Run",
+    "JUnit.UserServiceTest.executor": "Run",
+    "Maven.auth-api [clean].executor": "Run",
+    "Maven.auth-api [package].executor": "Run",
+    "Maven.data-api [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lis/IdeaProjects/winwintask"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.user" />
+      <recent name="org.example.processinglog" />
+      <recent name="org.example.dataapi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserServiceTest">
+    <configuration name="AuthApiApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.AuthApiApp" />
+      <module name="auth-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataApiClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dataapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.dataapi" />
+      <option name="MAIN_CLASS_NAME" value="org.example.dataapi.DataApiClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessingLogControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.processinglog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.processinglog" />
+      <option name="MAIN_CLASS_NAME" value="org.example.processinglog.ProcessingLogControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessingLogServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.processinglog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.processinglog" />
+      <option name="MAIN_CLASS_NAME" value="org.example.processinglog.ProcessingLogServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.user" />
+      <option name="MAIN_CLASS_NAME" value="org.example.user.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.ProcessingLogControllerTest" />
+        <item itemvalue="JUnit.ProcessingLogServiceTest" />
+        <item itemvalue="JUnit.DataApiClientTest" />
+        <item itemvalue="Application.AuthApiApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

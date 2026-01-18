@@ -1,2 +1,4 @@
-package org.example.user.dto;public record UserLoginRequest() {
+package org.example.user.dto;
+
+public record UserLoginRequest(String email, String password) {
 }

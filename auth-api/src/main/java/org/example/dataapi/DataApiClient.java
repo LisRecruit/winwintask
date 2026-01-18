@@ -1,4 +1,4 @@
-package org.example.dataapp;
+package org.example.dataapi;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,7 +11,7 @@ import java.util.Map;
 
 @Component
 @RequiredArgsConstructor
-public class DataAppClient {
+public class DataApiClient {
 
     private final RestTemplate restTemplate = new RestTemplate();
 
@@ -21,7 +21,7 @@ public class DataAppClient {
     @Value("${dataapi.internal-token}")
     private String internalToken;
 
-    public String transformText(String text) {
+    public String process(String text) {
         Map<String, String> requestBody = Map.of("text", text);
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
@@ -35,10 +35,15 @@ public class DataAppClient {
                 Map.class
         );
 
-        if (response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
-            return (String) response.getBody().get("result");
-        } else {
-            throw new RuntimeException("Failed to get response from Data API");
+        if (response.getStatusCode() != HttpStatus.OK) {
+            throw new RuntimeException("Failed to get response from Data API: status " + response.getStatusCode());
         }
+
+        Map<String, Object> body = response.getBody();
+        if (body == null || body.get("text") == null) {
+            throw new RuntimeException("Data API returned null result");
+        }
+
+        return body.get("text").toString();
     }
 }
